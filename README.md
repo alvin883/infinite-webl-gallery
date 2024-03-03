@@ -1,5 +1,7 @@
 # Infinite WebGL Images
 
+> This is just a simple fork to modernize the tooling with Vite, remove Webpack, and move to dart sass (to prevent node-gyp annoyance)
+
 A tutorial explaining how to build an infinite scrolling gallery using WebGL with OGL and GLSL Shaders.
 
 ![Final Result](cover.jpg)
@@ -13,19 +15,19 @@ A tutorial explaining how to build an infinite scrolling gallery using WebGL wit
 Install dependencies:
 
 ```
-npm install
+pnpm install
 ```
 
 Compile the code for development and start a local server:
 
 ```
-npm start
+pnpm dev
 ```
 
 Create the build:
 
 ```
-npm run build
+pnpm build
 ```
 
 ## Credits
@@ -40,6 +42,7 @@ Follow Luis Henrique Bizarro: [Website](https://bizar.ro/), [Twitter](https://tw
 Follow Codrops: [Twitter](http://www.twitter.com/codrops), [Facebook](http://www.facebook.com/codrops), [GitHub](https://github.com/codrops), [Instagram](https://www.instagram.com/codropsss/)
 
 ## License
+
 [MIT](LICENSE)
 
 Made with :blue_heart: by [Codrops](http://www.codrops.com)
